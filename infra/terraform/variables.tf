@@ -5,9 +5,9 @@ variable "region" {
 }
 
 variable "aws_profile" {
-  description = "AWS CLI 프로필 이름"
+  description = "AWS CLI 프로필 이름 (null이면 AWS_PROFILE 환경변수 또는 default 프로필 사용)"
   type        = string
-  default     = "goorm"
+  default     = null
 }
 
 variable "project_name" {

@@ -1,0 +1,5 @@
+# 이 파일을 복사해서 terraform.tfvars 로 저장 후 본인 설정으로 수정
+# terraform.tfvars 는 .gitignore 처리되어 있음 (커밋 안됨)
+
+# aws_profile = "goorm"     # AWS CLI 프로필 이름 (설정 안 하면 AWS_PROFILE 환경변수 사용)
+# region      = "ap-southeast-2"
